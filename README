@@ -6,7 +6,7 @@ SRCNN Paper link: https://arxiv.org/pdf/1501.00092v3.pdf
 
 To train the model: 
 run the command in terminal:
-python train3.py --eval-file "path/Set5_x3.h5"  
+python train3.py --eval-file "path/Set5_x2.h5"  
 
 To test the data:
-python test.py --weights-file "path/srcnn_x3.pth"  --scale 2
+python test.py --weights-file "path/srcnn_x3.pth"  --scale 3
