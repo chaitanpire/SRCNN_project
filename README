@@ -1,0 +1,12 @@
+Training Data link: https://www.dropbox.com/s/2hsah93sxgegsry/91-image_x2.h5?dl=0
+Eval_Data link: https://www.dropbox.com/s/r8qs6tp395hgh8g/Set5_x2.h5?dl=0
+Test data link: https://www.dropbox.com/s/rxluu1y8ptjm4rn/srcnn_x2.pth?dl=0
+PSRCNN Paper link: 
+
+To train the model:
+run the command in terminal:
+python train.py --eval-file "BLAH_BLAH/Set5_x3.h5"  
+
+To test the data:
+
+python test.py --weights-file "BLAH/srcnn_x3.pth"  --scale 2
